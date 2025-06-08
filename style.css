@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b0c10;
+    color: #e5e5e5;
+}
+
+h1, h2, h3 {
+    color: #f1c40f;
+}
+
+#install, #login, #dashboard {
+    padding: 20px;
+}
+
+button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #333;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat {
+    background-color: #1f1f1f;
+    padding: 20px;
+    flex: 1;
+}
